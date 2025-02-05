@@ -23,10 +23,10 @@ const default_config = {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
+              name: "Discord",
+              url: "https://discord.com/app",
+              icon: "brand-discord",
+              icon_color: palette.blue,
             },
             {
               name: "musicForProgramming();",
