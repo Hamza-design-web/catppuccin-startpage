@@ -103,53 +103,89 @@ const default_config = {
       ],
     },
     {
-      name: "school",
+      name: "dev",
       background_url: "src/img/banners/cbg-07.gif",
       categories: [
         {
-          name: "essentials",
+          name: "development",
           links: [
             {
-              name: "canvas",
+              name: "github",
               url: "https://github.com",
               icon: "brand-github",
               icon_color: palette.green,
             },
             {
-              name: "myapps",
+              name: "neptune",
               url: "https://ui.neptune.ai",
               icon: "circle-triangle",
               icon_color: palette.peach,
             },
+            {
+              name: "stackoverflow",
+              url: "https://stackoverflow.com",
+              icon: "brand-stackoverflow",
+              icon_color: palette.red,
+            },
           ],
         },
         {
-          name: "google",
+          name: "challenges",
           links: [
             {
-              name: "meet",
+              name: "kaggle",
               url: "https://www.kaggle.com",
               icon: "brain",
               icon_color: palette.green,
             },
             {
-              name: "docs",
+              name: "leetcode",
               url: "https://leetcode.com",
               icon: "code-plus",
               icon_color: palette.peach,
             },
             {
-              name: "slides",
+              name: "exercism",
               url: "https://exercism.org",
               icon: "code-minus",
               icon_color: palette.red,
             },
             {
-              name: "sheets",
+              name: "aoc",
               url: "https://adventofcode.com",
               icon: "brand-linktree",
               icon_color: palette.blue,
             },
+          ],
+        },
+        {
+          name: "resources",
+          links: [
+            {
+              name: "dou",
+              url: "https://dou.ua",
+              icon: "brand-prisma",
+              icon_color: palette.green,
+            },
+            {
+              name: "hackernews",
+              url: "https://news.ycombinator.com",
+              icon: "brand-redhat",
+              icon_color: palette.peach,
+            },
+            {
+              name: "uber engineering",
+              url: "https://www.uber.com/en-GB/blog/london/engineering",
+              icon: "brand-uber",
+              icon_color: palette.red,
+            },
+            {
+              name: "netflix tech blog",
+              url: "https://netflixtechblog.com",
+              icon: "brand-netflix",
+              icon_color: palette.blue,
+            },
+          ],
         },
       ],
     },
