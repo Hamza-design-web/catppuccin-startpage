@@ -23,13 +23,31 @@ const default_config = {
           name: "bookmarks",
           links: [
             {
-              name: "Discord",
+              name: "discord",
               url: "https://discord.com/app",
               icon: "brand-discord",
               icon_color: palette.blue,
             },
             {
-              name: "musicForProgramming();",
+              name: "reddit",
+              url: "https://musicforprogramming.net",
+              icon: "binary-tree",
+              icon_color: palette.peach,
+            },
+            {
+              name: "bluesky",
+              url: "https://musicforprogramming.net",
+              icon: "binary-tree",
+              icon_color: palette.peach,
+            },
+            {
+              name: "twitter",
+              url: "https://musicforprogramming.net",
+              icon: "binary-tree",
+              icon_color: palette.peach,
+            },
+            {
+              name: "youtube",
               url: "https://musicforprogramming.net",
               icon: "binary-tree",
               icon_color: palette.peach,
@@ -155,26 +173,26 @@ const default_config = {
       ],
     },
     {
-      name: "chi ll",
+      name: "dev",
       background_url: "src/img/banners/cbg-08.gif",
       categories: [
         {
-          name: "social media",
+          name: "resources",
           links: [
             {
-              name: "telegram",
+              name: "github",
               url: "https://web.telegram.org",
               icon: "brand-telegram",
               icon_color: palette.green,
             },
             {
-              name: "facebook",
+              name: "svgrepo",
               url: "https://www.facebook.com",
               icon: "brand-facebook",
               icon_color: palette.peach,
             },
             {
-              name: "reddit",
+              name: "icons8",
               url: "https://www.reddit.com/r/unixporn",
               icon: "brand-reddit",
               icon_color: palette.red,
