@@ -4,8 +4,8 @@ const palette = mocha;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "Hillsboro, Oregon",
-    scale: "F",
+    location: "Cairo Egypt",
+    scale: "c",
   },
   clock: {
     format: "h:i p",
@@ -23,32 +23,20 @@ const default_config = {
           name: "bookmarks",
           links: [
             {
-              name: "discord",
-              url: "https://discord.com/app",
-              icon: "brand-discord",
-              icon_color: palette.blue,
-            },
+              name: "Github"
+            
+
+              
+            }
             {
               name: "reddit",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
-            },
-            {
-              name: "bluesky",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
-            },
-            {
-              name: "twitter",
-              url: "https://musicforprogramming.net",
+              url: "https://reddit.com",
               icon: "binary-tree",
               icon_color: palette.peach,
             },
             {
               name: "youtube",
-              url: "https://musicforprogramming.net",
+              url: "https://youtube.com",
               icon: "binary-tree",
               icon_color: palette.peach,
             },
